@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>IT Encyklopedie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>IT Encyklopedie</h2>
+    <ul>
+        <li><a href="index.html">Domů</a></li>
+        <li><a href="pages/internet.html">Internet</a></li>
+        <li><a href="pages/cpu.html">CPU</a></li>
+        <li><a href="pages/ram.html">RAM</a></li>
+        <li><a href="pages/gpu.html">GPU</a></li>
+        <li><a href="pages/ssd.html">SSD</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h1>Vítejte v IT encyklopedii</h1>
+
+    <p>
+        Tato encyklopedie obsahuje základní pojmy z oblasti informačních technologií.
+        Pomocí menu se můžete přepínat mezi jednotlivými tématy.
+    </p>
+
+    <h3>Vyhledávání</h3>
+
+    <input type="text" id="searchInput" placeholder="Zadejte pojem...">
+    <button onclick="searchPage()">Hledat</button>
+
+    <div class="info">
+        <h3>Jak encyklopedii používat?</h3>
+        <ul>
+            <li>Vyberte pojem v menu.</li>
+            <li>Nebo využijte vyhledávání.</li>
+            <li>Každá stránka obsahuje vysvětlení jednoho pojmu.</li>
+        </ul>
+    </div>
+</main>
+
+<script src="search.js"></script>
+
+</body>
+</html>
